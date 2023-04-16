@@ -8,4 +8,6 @@
 先の話だけどチェックシートが変わったときに変数を外部から変えることができればずっと使えそう。4
 
 
-©2023　T
+poppler-23.01.0
+https://github.com/oschwartz10612/poppler-windows/releases/
+©2023　T.F
