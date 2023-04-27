@@ -1,0 +1,25 @@
+手順
+1仮想環境用意
+python -m venv venv
+.\venv\Scripts\activate
+
+2.ライブラリインストール
+pip install Pillow
+pip install pdf2image
+pip install pdfrw
+pip install reportlab
+pip install cx-Freeze
+
+3.下記を同じディレクトリに保存setup.py
+
+from cx_Freeze import setup, Executable
+
+setup(
+    name="my_program",
+    version="1.0",
+    description="My Program",
+    executables=[Executable("×××.py", base="Win32GUI")],
+)
+
+4.exe化！
+python setup.py build
