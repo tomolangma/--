@@ -351,7 +351,7 @@ def TL_checksheet(hisou = "",souju= "", sousi = "",soute= ""):
                         if p == True:
                             check(1369,switch0Base[i][k])
                         else:
-                            check(1410,switch0Base[i][j])
+                            check(1410,switch0Base[i][k])
                 # ページデータの確定
                 if i == 7:
                     print("ss")
